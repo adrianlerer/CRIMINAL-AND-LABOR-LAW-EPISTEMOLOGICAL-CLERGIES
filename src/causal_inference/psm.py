@@ -220,21 +220,67 @@ def estimate_att(df, matched_df, treatment_var, outcome_var, bootstrap_n=1000):
 
 def rosenbaum_sensitivity(df, matched_df, treatment_var, outcome_var, gamma_range=[1.0, 1.5, 2.0, 2.5]):
     """Perform Rosenbaum sensitivity analysis for hidden bias."""
-    treated_outcomes = df.loc[matched_df['treated_idx'].unique(), outcome_var].values
-    control_outcomes = df.loc[matched_df['control_idx'].values, outcome_var].values
+    # matched_df contains treated_idx and control_idx columns
+    # Extract outcomes using these indices
     
-    differences = treated_outcomes - control_outcomes
+    if len(matched_df) == 0:
+        print("\n⚠️  WARNING: No matched pairs for sensitivity analysis")
+        return pd.DataFrame({'Gamma': gamma_range, 'p_value_upper': [np.nan] * len(gamma_range), 
+                           'Status': ['N/A'] * len(gamma_range)})
+    
+    # Get unique treated units and their outcomes
+    treated_indices = matched_df['treated_idx'].unique()
+    treated_outcomes = df.loc[treated_indices, outcome_var].values
+    
+    # Get control outcomes (may have duplicates if k>1)
+    control_indices = matched_df['control_idx'].values
+    control_outcomes = df.loc[control_indices, outcome_var].values
     
     sensitivity_results = []
     
+    # If unequal sizes due to k-NN matching, aggregate controls by treated unit
+    if len(treated_outcomes) != len(control_outcomes):
+        # Group controls by treated unit (if matched_idx info available)
+        n_treated = len(treated_outcomes)
+        n_control = len(control_outcomes)
+        k = n_control // n_treated  # matches per treated unit
+        
+        # Aggregate control outcomes (take mean of k nearest neighbors)
+        control_outcomes_agg = []
+        for i in range(n_treated):
+            start_idx = i * k
+            end_idx = start_idx + k
+            control_outcomes_agg.append(np.mean(control_outcomes[start_idx:end_idx]))
+        control_outcomes = np.array(control_outcomes_agg)
+    
+    differences = treated_outcomes - control_outcomes
+    
     for gamma in gamma_range:
-        z_score = np.mean(differences > 0) - 0.5 / (1 + gamma)
-        z_score = z_score / (np.std(differences > 0) / np.sqrt(len(differences)))
-        p_upper = 1 - stats.norm.cdf(z_score)
+        # Simplified Rosenbaum bound calculation
+        # Under Gamma=1 (no hidden bias), test H0: median(diff) = 0
+        if len(differences) > 0:
+            # Wilcoxon signed-rank test approximation
+            positive_diffs = np.sum(differences > 0)
+            n = len(differences)
+            
+            # Adjusted probability under hidden bias
+            p_plus = positive_diffs / n if n > 0 else 0.5
+            
+            # Upper bound on p-value under gamma bias
+            if gamma == 1.0:
+                z_stat = (positive_diffs - n/2) / np.sqrt(n/4)
+                p_upper = 1 - stats.norm.cdf(abs(z_stat))
+            else:
+                # Conservative upper bound
+                pi_max = gamma / (1 + gamma)
+                z_stat = (positive_diffs - n * pi_max) / np.sqrt(n * pi_max * (1 - pi_max))
+                p_upper = 1 - stats.norm.cdf(z_stat)
+        else:
+            p_upper = 1.0
         
         sensitivity_results.append({
             'Gamma': gamma,
-            'p_upper': p_upper,
+            'p_value_upper': max(0, min(1, p_upper)),  # Bound between 0 and 1
             'Status': '✅ Robust' if p_upper < 0.05 else '⚠️ Marginal' if p_upper < 0.10 else '❌ Fragile'
         })
     
@@ -242,7 +288,9 @@ def rosenbaum_sensitivity(df, matched_df, treatment_var, outcome_var, gamma_rang
     
     print(f"\n✅ Sensitivity Analysis (Rosenbaum Bounds):")
     print(sensitivity_df.to_string(index=False))
-    print(f"\n   Interpretation: Result is {'✅ ROBUST' if sensitivity_df.iloc[1]['p_upper'] < 0.05 else '⚠️ MODERATELY ROBUST' if sensitivity_df.iloc[1]['p_upper'] < 0.10 else '❌ FRAGILE'}")
+    
+    if len(sensitivity_df) > 1:
+        print(f"\n   Interpretation: Result is {'✅ ROBUST' if sensitivity_df.iloc[1]['p_value_upper'] < 0.05 else '⚠️ MODERATELY ROBUST' if sensitivity_df.iloc[1]['p_value_upper'] < 0.10 else '❌ FRAGILE'}")
     
     return sensitivity_df
 
