@@ -1,6 +1,7 @@
 {
   "name": "webapp",
   "version": "1.0.0",
+  "type": "module",
   "description": "**Integrated Platform for Legal Concept Evolution Analysis**",
   "main": "index.js",
   "directories": {
