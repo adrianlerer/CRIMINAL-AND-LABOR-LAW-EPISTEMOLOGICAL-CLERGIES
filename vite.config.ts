@@ -5,6 +5,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: 'frontend',
+  base: process.env.BASE_PATH || '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './frontend/src'),
