@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Trash2, Search, Filter, Download } from 'lucide-react';
+import { ArrowLeft, Trash2, Search, Filter, Download, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { storage } from '../services/storage';
 import type { SavedAnalysis } from '../types';
