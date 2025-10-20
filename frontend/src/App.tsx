@@ -5,8 +5,11 @@ import AcademicWizard from './pages/AcademicWizard';
 import Workspace from './pages/Workspace';
 
 function App() {
+  // Get base path from import.meta.env for proper GitHub Pages routing
+  const basename = import.meta.env.BASE_URL;
+  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/wizard" element={<AcademicWizard />} />
