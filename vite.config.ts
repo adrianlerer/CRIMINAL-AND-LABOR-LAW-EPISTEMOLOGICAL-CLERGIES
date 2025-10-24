@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: 'frontend',
-  base: process.env.BASE_PATH || '/',
+  base: process.env.NODE_ENV === 'production' ? '/legal-evolution-unified/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './frontend/src'),
