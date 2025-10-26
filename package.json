@@ -12,7 +12,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:gh-pages": "BASE_PATH=/legal-evolution-unified npm run build",
     "preview": "vite preview",
+    "deploy:gh-pages": "./deploy-gh-pages.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
