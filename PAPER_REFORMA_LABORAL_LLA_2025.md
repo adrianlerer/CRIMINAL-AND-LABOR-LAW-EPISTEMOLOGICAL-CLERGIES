@@ -1,7 +1,7 @@
 # REFORMA LABORAL ARGENTINA 2025: UN ANÁLISIS DESDE LA TEORÍA DEL LOCK-IN CONSTITUCIONAL Y LA INFERENCIA ACTIVA INSTITUCIONAL
 
 **Ignacio Adrián Lerer**  
-Yale Law School / Universidad de Buenos Aires  
+Universidad de Buenos Aires  
 *Working Paper - Noviembre 2025*
 
 ---
@@ -783,8 +783,7 @@ NO requiere:
 ---
 
 **Fecha de elaboración:** 29 de octubre de 2025  
-**Versión:** 2.0 (actualizada post-elecciones legislativas)  
-**Contacto:** ignacio.lerer@yale.edu
+**Versión:** 2.0 (actualizada post-elecciones legislativas)
 
 ---
 
