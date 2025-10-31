@@ -1576,19 +1576,434 @@ Any future reform ignoring the C* optimization principle is doomed to repeat thi
 
 ## V. IMPLICATIONS FOR INSTITUTIONAL DESIGN
 
-[TO BE COMPLETED IN PART 6]
+### 5.1 Lessons for Reformers: Memetic Engineering
 
----
+The filtering framework generates counterintuitive but empirically validated prescriptions for institutional reform. Standard technocratic approaches—emphasizing evidence, expert consensus, and logical coherence—consistently fail not despite their rationality but *because* of it. Sophisticated narratives (C≥7) attract broad but shallow coalitions that fragment under opposition pressure. Effective reform requires understanding and working with memetic selection dynamics rather than against them.
+
+**The Reformer's Dilemma**:
+
+Policymakers face a fundamental trade-off between **epistemic honesty** and **political durability**. A technically accurate narrative explaining complex trade-offs (high C) maximizes short-term elite support but minimizes long-term institutional persistence. A simplified narrative with obvious contradictions (low C) filters for committed adherents capable of sustaining mobilization but requires tolerating logical inconsistencies.
+
+This creates an ethical tension: Is it acceptable to design "absurd" narratives to achieve beneficial policies? Or does memetic engineering constitute manipulation incompatible with democratic deliberation?
+
+**Pragmatic Approach: Target C=2-4**
+
+The evidence suggests a middle path exists. Policies need not be C=1 (pure absurdity) to benefit from filtering; C=2-4 provides sufficient simplicity to screen adherents while maintaining defensible (if incomplete) truthfulness.
+
+**Case Study: Brazil's Bolsa Família (2003-present, C=3)**
+
+Brazil's conditional cash transfer program illustrates successful memetic engineering:
+
+**Narrative Architecture (C=3)**:
+- "Direct money to mothers for their children's food, health, and education"
+- Simple three-part structure (mothers, children, conditions)
+- Modest complexity: Requires understanding conditionality concept but not economic theory
+- Tolerated contradiction: Conditions weakly enforced (monitoring costs high), yet narrative maintains they're essential
+- Filters for: Family-oriented voters who value direct assistance over theoretical welfare economics
+
+**Coalition Durability**:
+- 22 years survival (2003-2025)
+- Survived ideological transitions: Left (Lula 2003-2010), Center-left (Dilma 2011-2016), Right (Temer 2016-2018), Far-right (Bolsonaro 2019-2022), Left (Lula 2023-)
+- Bolsonaro attempted to rename it "Auxílio Brasil" (2021) but maintained structure—even ideological opponent couldn't dismantle
+- 14 million families, 50+ million beneficiaries create durable constituency
+- Replication: Inspired conditional cash transfer programs in 52 countries
+
+**Why C=3 Worked**:
+
+The narrative is simple enough to filter: accepting "direct money to mothers" requires prioritizing tangible assistance over concerns about labor disincentives, dependency, or fiscal sustainability—screening out neoliberal economists (θ<0.4) while including pragmatic voters (θ=0.5-0.8). But it's sophisticated enough to withstand basic scrutiny: the program generates measurable outcomes (school enrollment +15%, malnutrition -46%, Rasella et al. 2013), providing ammunition against critics.
+
+Contrast with Argentine obras sociales (C=2): Both survived long-term, but Bolsa Família achieved this while improving welfare outcomes, whereas obras sociales persist despite generating inequality. The marginal sophistication (C=3 vs C=2) purchased outcome legitimacy without sacrificing filtering efficiency.
+
+**Prescriptive Rules for Reformist Memetic Design**:
+
+**Rule 1: Target C=2-4, Never C≥7**
+
+Any reform narrative requiring technical knowledge beyond "basic causality" (C≥7) is doomed in environments with high θ variance. The coalition will fragment.
+
+Bad: "Reducing labor non-wage costs increases formal employment through elastic labor demand responses to price signals" (C=8)
+
+Better: "Corrupt union bosses pocket workers' money; direct payment gives workers freedom" (C=3)
+
+The second narrative filters for anti-union sentiment (screening for commitment) while remaining factually defensible (union corruption exists, direct payment increases worker control).
+
+**Rule 2: Construct Clear Enemies, Not Abstract Problems**
+
+Binary frames (Us vs Them) are essential filtering mechanisms. "Market failures requiring correction" (C=9) attracts economists but repels everyone else. "Corrupt elites exploiting workers" (C=2) filters for populist commitment.
+
+Effective reformers must identify a villain: "Bureaucratic inefficiency" is too abstract (C=7). "Lazy bureaucrats who arrive at 10am and leave at 3pm while you work 12 hours" is concrete (C=3) and filters for anti-state sentiment.
+
+Ethical concern: Vilification can be unfair. Response: Political competition always involves framing adversaries negatively; the question is whether the core claim has validity. "Lazy bureaucrats" is a caricature, but if public sector productivity lags private sector observably, the narrative has factual basis.
+
+**Rule 3: Prioritize Symbols Over Explanations**
+
+Tangible symbols (objects, rituals, visual markers) reduce C more effectively than verbal explanations.
+
+Argentine reformers proposing "health insurance portability" (C=7) failed. Had they proposed "Health Freedom Card" (tangible plastic card, C=4) with "Choose Your Doctor" slogan (C=3), they might have generated competing symbolism against union control.
+
+Brazil's Bolsa Família succeeds partly through the physical card (Cartão Bolsa Família) mothers receive—tangible proof of program participation, becoming identity marker.
+
+**Rule 4: Pre-Install Defensive Narratives**
+
+High-θ adherents need ready-made responses to opposition arguments. These should be simple (C≤3) and emotionally satisfying.
+
+Populist policies excel at this: When obras sociales underperform, the defense is "underfunding by neoliberal governments" (C=2), not technical analysis of administrative efficiency. When aguinaldo increases unemployment, the defense is "corporations are greedy" (C=1), not labor economics.
+
+Reformers must provide equivalent defensive narratives: "Reform opposition comes from corrupt interests protecting their privileges" (C=2) is more durable than "Opposition reflects coordination problems and concentrated costs versus diffuse benefits" (C=8).
+
+**Rule 5: Create Visible Beneficiary Groups**
+
+Policies generating diffuse benefits (everyone slightly better off) lack defense constituencies. Policies creating identifiable beneficiary groups (even if fewer people benefit) generate durable coalitions.
+
+Obras sociales benefit ~9 million formal workers identifiably (through payroll deduction and obra social card). A unified national health system would benefit ~45 million people, but diffusely. The concentrated 9 million mobilize more effectively than diffuse 45 million.
+
+Reformers should design policies creating visible beneficiaries: "Entrepreneurs' Fund" for small businesses (C=3) creates identity group; "Improved business environment" (C=8) does not.
+
+### 5.2 Ethical Tensions and Researcher Responsibility
+
+This framework could enable more effective manipulation. Publishing the "Nigerian prince principle" for political narratives risks teaching demagogues how to optimize absurdity. Three ethical concerns require addressing:
+
+**Concern 1: Facilitating Deception**
+
+If narrative complexity C* involves tolerating contradictions, does promoting this framework encourage lying?
+
+**Response - Distinction Between Simplification and Falsification**:
+
+C=3 narratives can be truthful but simplified. "Corrupt union bosses pocket workers' money" is factually accurate (documented cases of embezzlement, administrative bloat) even if it omits that many union leaders are honest and unions provide genuine services. Simplification ≠ fabrication.
+
+The ethical line: Narratives should not make factually false claims ("union leaders are all criminals"), but may present partial truths emphasizing certain aspects ("union bureaucracy wastes resources"). Political discourse always involves selective emphasis; the question is whether core claims withstand scrutiny.
+
+Counterpoint: Opponents will use any tool, ethical or not. Refusing to publish this framework leaves reformers ignorant while demagogues intuitively optimize for C*. Transparency about memetic dynamics enables democratic defense.
+
+**Concern 2: Exploiting Cognitive Vulnerability**
+
+Filtering by credulity θ targets populations with lower analytical capacity. Is this exploitation of vulnerability?
+
+**Response - Descriptive vs. Normative**:
+
+The framework describes existing dynamics; it does not prescribe that low θ individuals "should" be targeted. Populations already vary in θ due to educational inequality, time constraints, and cognitive diversity. Memetic competition already exploits this—the question is whether to acknowledge and study it.
+
+Moreover, "credulity" is pejorative framing. Alternative interpretation: θ measures willingness to prioritize group loyalty over individual skepticism. High-θ individuals enable collective action by subordinating analytical doubts to coordinated commitment. This can be functional (social movements, national defense) or dysfunctional (cults, authoritarianism).
+
+The normative goal should be reducing θ variance through education while recognizing that even educated populations exhibit coordination problems requiring some threshold commitment.
+
+**Concern 3: Undermining Deliberative Democracy**
+
+If optimal political competition favors absurdity over accuracy, does this framework imply democracy cannot function properly?
+
+**Response - Realistic vs. Idealized Democracy**:
+
+Deliberative democracy theory (Habermas, Rawls) assumes rational discourse and truth-seeking. This has always been idealized; actual democracies involve rhetoric, symbolism, and emotional appeals. The filtering framework explains why.
+
+Rather than lamenting this, we should design institutions that channel memetic competition toward beneficial outcomes:
+
+**Institutional Fixes**:
+1. **Counter-narrative Infrastructure**: Fund organizations creating competing C=2-4 narratives for reforms (not just C=8 technocratic arguments)
+2. **Education**: Increase minimum θ through civic education emphasizing critical thinking (long-term, difficult, but reduces vulnerability)
+3. **Transparency Requirements**: Mandate disclosure of funding, coalition members, making it harder to maintain pure absurdity (factual claims can be checked)
+4. **Plural Information Sources**: Media diversity prevents single narrative from dominating unopposed
+
+The framework is morally neutral: it explains memetic competition dynamics. How societies use this knowledge—to manipulate or to design better institutions—is the ethical choice.
+
+**Researcher Responsibility**:
+
+I believe publishing this framework is justified because:
+1. The dynamics already exist and operate; ignorance does not prevent exploitation
+2. Reformers need tools to compete against intuitively optimized populist narratives  
+3. Understanding filtering enables diagnosis of why reforms fail, potentially preventing repeated mistakes
+4. Democratic discourse benefits from transparency about persuasion mechanisms
+
+However, I acknowledge the risk that bad-faith actors will use these insights. The solution is not suppression but proliferation: ensuring all sides understand the game being played.
+
+### 5.3 Future Research Agenda
+
+**Extension 1: Experimental Validation**
+
+The current evidence is observational (correlational + survival analysis + mediation). Experimental designs would strengthen causal inference:
+
+**Survey Experiment**: Randomize narrative complexity in hypothetical policy scenarios. Measure:
+- Initial willingness to support (does low C increase acceptance?)
+- Commitment durability (reassess 6 months later—do low-C adherents persist?)
+- Mobilization intent (would you attend protest, donate, contact representatives?)
+- Response to counter-evidence (do high-C supporters abandon when shown contradictory data?)
+
+Prediction: Low-C narratives should generate fewer initial supporters but higher persistence and mobilization among those who accept.
+
+**Extension 2: Neuroscience of Narrative Processing**
+
+fMRI studies could identify neural correlates of θ heterogeneity:
+
+Hypothesis: Low-C narratives activate limbic system (emotion, identity) preferentially, while high-C narratives activate prefrontal cortex (analysis, evaluation). High-θ individuals may show stronger limbic activation and weaker prefrontal engagement when processing political information.
+
+This would provide biological microfoundations for the θ parameter, moving beyond behavioral description to mechanistic explanation.
+
+**Extension 3: Computational Agent-Based Modeling**
+
+Simulate memetic competition with heterogeneous agents (varied θ), adjustable C for competing memes, and defection/mobilization dynamics. Explore:
+- What C* emerges under different θ distributions?
+- How does media fragmentation (echo chambers) affect optimal C?
+- Can "truth-biased" agents (who penalize inconsistency) ever outcompete commitment-filtered populations?
+- Under what institutional rules can sophisticated narratives survive?
+
+ABM could generate predictions for institutional interventions (e.g., "fact-checking reduces optimal C* by X% only if credibility exceeds Y threshold").
+
+**Extension 4: Cross-National Comparative Analysis**
+
+Expand dataset beyond Argentina and international law to:
+- **Scandinavian countries** (low θ variance due to high education, low inequality): Do sophisticated narratives (C=6-8) perform better?
+- **United States** (high polarization): Does filtering by partisan identity create similar dynamics to Argentina's Peronism?
+- **Authoritarian regimes** (China, Russia): Do state-controlled narratives follow same C* optimization, or does coercion change the calculus?
+- **Social movements** (Black Lives Matter, Me Too, climate activism): Do successful movements converge on optimal C=2-4?
+
+**Extension 5: Historical Deep Dive**
+
+Analyze pre-modern societies to test whether filtering operated before mass politics:
+- **Religious movements**: Early Christianity (C=2: "Love thy neighbor") vs. Gnosticism (C=9: complex cosmology)—survival differential?
+- **Nationalist movements**: Simple nationalist symbols (flags, anthems, C=1-2) vs. complex constitutional arguments (C=7-8)—which generated durable nations?
+- **Economic ideologies**: Marxist "class struggle" (C=3) vs. neoclassical economics (C=9)—persistence patterns?
+
+If filtering operated across centuries and cultures, it's a fundamental feature of human collective action, not artifact of modern media.
+
+**Extension 6: AI and Memetic Competition**
+
+Large language models can generate narratives at arbitrary C levels. Future research:
+- Can AI be trained to optimize C* for given θ distribution?
+- Does AI-generated content exhibit different filtering dynamics than human-created narratives?
+- Can AI be used defensively to detect and counter low-C manipulation?
+- What happens when AI-optimized memes compete with human memes?
+
+This is urgent: GPT-4, Claude, and successors are already being used for political messaging. Understanding memetic optimization could prevent AI-enabled manipulation or enable AI-augmented reform.
 
 ## VI. CONCLUSION
 
-[TO BE COMPLETED IN PART 6]
+### 6.1 Theoretical Contributions
+
+This paper resolves a persistent puzzle: why do politically successful narratives often exhibit obvious logical contradictions? I demonstrate that inconsistency is not a bug but an optimized feature—a costly signal filtering adherents by commitment level.
+
+Drawing on Zahavi's (1975) handicap principle from evolutionary biology and Herley's (2012) analysis of email scams, I formalize a utility function for meme propagators. Optimal narrative complexity C* emerges from the trade-off between initial reach (higher with sophisticated narratives) and coalition durability (higher with simple narratives that pre-filter low-commitment adherents). The model predicts C* increases with population credulity variance and mobilization costs.
+
+Empirical validation across 60 transnational legal conflicts (2000-2025) and 35 Argentine policies (1946-2025) confirms the core prediction: narrative complexity negatively correlates with institutional persistence (r=-0.67, p<0.001; R²=0.81 in Argentine historical data). Complex narratives (C≥7) attract broad but fragile coalitions that fragment under pressure. Simple narratives (C≤2) filter for high-commitment adherents who sustain mobilization across decades.
+
+This framework explains the 216:1 reproductive advantage of populist over liberal memes documented in Lerer (2025). Argentine populist policies exhibit mean survival of 71 years versus 4 years for liberal reforms—not because voters are "irrational" but because populist narrative architecture (C=1-2) optimizes for coalition durability while liberal narratives (C=7-8) optimize for breadth at the expense of depth.
+
+The paper makes four theoretical contributions:
+
+**1. Microfoundations for Institutional Persistence**: Path dependence theory (Pierson 2000) explains why suboptimal equilibria persist but treats initial selection as exogenous. Costly signaling theory endogenizes the selection: high-C narratives fail *because* their filtering function is weak. Institutions survive not despite irrationality but because of optimized filtering.
+
+**2. Causal Mechanism for Populist Success**: Populism literature (Mudde & Rovira Kaltwasser 2017) documents populist persistence but lacks formal models explaining *why* binary "people vs. elite" narratives dominate. I show binary frames function as commitment tests—only high-θ individuals who prioritize tribal loyalty over nuance accept them. This generates durable coalitions resistant to counter-evidence.
+
+**3. Bridge Between Evolutionary Biology and Political Economy**: Zahavi's handicap principle has been applied to consumer signaling (Veblen goods) and mating (peacock's tail) but not systematically to political narratives. I demonstrate that memetic competition follows the same costly signaling logic: apparent liabilities (contradictions, absurdity) become assets when they filter for desired traits (commitment, loyalty).
+
+**4. Predictive Framework for Reform**: The model generates testable predictions about which reforms will survive. Any C≥7 reform in high-variance-θ environments (Latin America, Southern Europe, polarized democracies) faces structural disadvantage. Reformers must target C=2-4 to balance truthfulness and filtering efficiency.
+
+### 6.2 Empirical Findings
+
+**International Legal Conflicts (N=60, 2000-2025)**:
+
+Sovereigntist narratives (mean C=2.8) defeated globalist narratives (mean C=7.4) in 63% of conflicts despite often lacking legal/technical merit. Lower complexity predicted:
+- 3.2x higher protest participation
+- 2.7x longer mobilization duration  
+- 2.3x institutional survival (Cox hazard ratio)
+- 59% of effect mediated through base mobilization
+
+Argentina-Uruguay Botnia dispute (2006-2010) exemplifies: Argentina's C=2 framing ("Uruguay violates sovereignty") generated 100,000+ protesters sustained across 4 years, achieving de facto partial victory despite losing ICJ ruling. Uruguay's C=8 technical arguments attracted elite support but minimal mobilization.
+
+Brexit (2016) provides the purest natural experiment: "Take Back Control" (C=1) defeated comprehensive economic arguments (C=9) despite equal resources, media access, and institutional support. Leave coalition defection rate 5% versus Remain 27%—exactly as filtering theory predicts for differential θ distributions.
+
+**Argentine Historical Analysis (N=35, 1946-2025)**:
+
+Perfect gradient of survival by complexity:
+- C≤2 (N=8): 100% still active, mean survival 80+ years
+- C=7-8 (N=12): 8% still active, mean survival 3.8 years
+
+Zero liberal reforms (C≥7) survived beyond 21 years. Modal lifespan: 3-6 years before reversal. Failures occurred despite temporary success (Convertibility ended hyperinflation, AFJP increased savings, privatizations improved services) because narrative architecture attracted coalitions incapable of defending reforms.
+
+Obras sociales (C=2, 55 years) survived 22 governments, 6 coups, 3 hyperinflations with zero successful reforms despite obvious inefficiency. Aguinaldo (C=1, 80 years) maintains support from 68% of informal workers who don't receive it and 71% of unemployed—costly signal of symbolic commitment.
+
+Exponential decay model (Years = 94.3 × e^(-0.41×C)) fits data with R²=0.81, each C point reducing survival 34%.
+
+### 6.3 Practical Implications
+
+**For Policymakers**: Technical sophistication undermines reforms rather than strengthening them. The "sophistication trap" attracts fair-weather adherents who defect under opposition pressure. Effective reform requires memetic engineering: designing C=2-4 narratives that filter for commitment while maintaining factual defensibility. 
+
+Brazil's Bolsa Família (C=3, 22 years, 52-country replication) demonstrates successful approach: simple enough to filter ("direct money to mothers for children"), sophisticated enough to generate measurable outcomes (school enrollment +15%, malnutrition -46%).
+
+**For Political Analysts**: Predictive framework for electoral outcomes and policy durability. Movements employing C≤3 narratives will exhibit greater persistence than sophisticated competitors, even when minority. Trump (C=2: "Drain the swamp"), Sanders (C=3: "Billionaire class vs. working families"), and European populist parties follow this pattern.
+
+**For Democratic Institutions**: Understanding filtering dynamics enables defensive strategies:
+1. Fund counter-narrative infrastructure creating C=2-4 reformist memes
+2. Increase baseline θ through civic education (long-term)
+3. Mandate transparency to reduce pure absurdity's viability
+4. Recognize that some filtering is inevitable—the goal is channeling it toward beneficial outcomes
+
+**For Citizens**: Awareness of filtering mechanisms provides cognitive defense. Recognizing that narrative simplicity often signals commitment-screening rather than truth-seeking enables more sophisticated evaluation of political claims.
+
+### 6.4 Final Reflection: Democracy and the Nigerian Prince
+
+The Nigerian prince email persists because absurdity filters efficiently. Political narratives operate analogously. This creates a profound challenge for democracy.
+
+Deliberative democracy theory imagines rational discourse generating consensus through truth-seeking dialogue. But memetic competition rewards narratives that optimize for coalition durability, not accuracy. The most politically fit memes are those that filter most effectively—and filtering requires costly signals, which often means tolerating contradictions.
+
+This does not mean democracy is doomed. It means democracy operates under constraints unacknowledged by idealized theories. Effective governance requires working with these constraints rather than wishing them away.
+
+The optimistic interpretation: Filtering enables collective action. High-θ individuals who subordinate skepticism to group loyalty are essential for coordinated mobilization. Without them, no reforms succeed—societies face gridlock. The pessimism of rational choice theory (everyone defects on collective action) is false precisely because some individuals are high-θ filterable types.
+
+The pessimistic interpretation: Filtering selects for credulity over accuracy. Populations become increasingly polarized as competing C=2 narratives capture high-θ segments while alienating low-θ moderates. Discourse degrades; compromise becomes impossible; democracy becomes tribalism with voting.
+
+Which interpretation prevails depends on institutional design. Societies can:
+- **Reduce θ variance** through education (raising minimum analytical capacity)
+- **Channel competition** through transparency and fact-checking (raising costs of extreme absurdity)
+- **Create counter-filters** that select for prosocial rather than tribal commitment
+- **Recognize trade-offs** between mobilization and deliberation, optimizing for both rather than pretending one dominates
+
+The Nigerian prince scam works because it's optimized for its environment. Political narratives work analogously. We cannot eliminate memetic competition—it's inherent to cultural evolution. But we can design environments where optimized narratives align with beneficial outcomes rather than exploiting cognitive vulnerabilities.
+
+This paper provides the analytical tools. Using them wisely is democracy's next challenge.
 
 ---
 
 ## REFERENCES
 
-[TO BE COMPLETED IN PART 7]
+### Evolutionary Biology and Memetics
+
+Dawkins, R. (1976). *The Selfish Gene*. Oxford University Press.
+
+Dawkins, R. (1982). *The Extended Phenotype: The Long Reach of the Gene*. Oxford University Press.
+
+Dennett, D.C. (1995). *Darwin's Dangerous Idea: Evolution and the Meanings of Life*. Simon & Schuster.
+
+Dennett, D.C. (2017). *From Bacteria to Bach and Back: The Evolution of Minds*. W.W. Norton & Company.
+
+Boyd, R., & Richerson, P.J. (1985). *Culture and the Evolutionary Process*. University of Chicago Press.
+
+Boyd, R., & Richerson, P.J. (2005). *The Origin and Evolution of Cultures*. Oxford University Press.
+
+Henrich, J. (2015). *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton University Press.
+
+Maynard Smith, J., & Price, G.R. (1973). The logic of animal conflict. *Nature*, 246(5427), 15-18.
+
+Maynard Smith, J. (1982). *Evolution and the Theory of Games*. Cambridge University Press.
+
+Zahavi, A. (1975). Mate selection—A selection for a handicap. *Journal of Theoretical Biology*, 53(1), 205-214.
+
+Zahavi, A., & Zahavi, A. (1997). *The Handicap Principle: A Missing Piece of Darwin's Puzzle*. Oxford University Press.
+
+### Costly Signaling and Behavioral Economics
+
+Spence, M. (1973). Job market signaling. *Quarterly Journal of Economics*, 87(3), 355-374.
+
+Herley, C. (2012). Why do Nigerian scammers say they are from Nigeria? *Workshop on the Economics of Information Security (WEIS)*.
+
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica*, 47(2), 263-291.
+
+Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+
+Thaler, R.H., & Sunstein, C.R. (2008). *Nudge: Improving Decisions About Health, Wealth, and Happiness*. Yale University Press.
+
+Camerer, C., Loewenstein, G., & Rabin, M. (Eds.). (2004). *Advances in Behavioral Economics*. Princeton University Press.
+
+### Populism and Political Economy
+
+Mudde, C., & Rovira Kaltwasser, C. (2017). *Populism: A Very Short Introduction*. Oxford University Press.
+
+Dornbusch, R., & Edwards, S. (Eds.). (1991). *The Macroeconomics of Populism in Latin America*. University of Chicago Press.
+
+Acemoglu, D., & Robinson, J.A. (2012). *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. Crown Business.
+
+Levitsky, S., & Ziblatt, D. (2018). *How Democracies Die*. Crown Publishing.
+
+Levitsky, S., & Way, L.A. (2010). *Competitive Authoritarianism: Hybrid Regimes After the Cold War*. Cambridge University Press.
+
+### Institutional Persistence and Path Dependence
+
+North, D.C. (1990). *Institutions, Institutional Change and Economic Performance*. Cambridge University Press.
+
+Pierson, P. (2000). Increasing returns, path dependence, and the study of politics. *American Political Science Review*, 94(2), 251-267.
+
+Greif, A., & Laitin, D.D. (2004). A theory of endogenous institutional change. *American Political Science Review*, 98(4), 633-652.
+
+Tsebelis, G. (2002). *Veto Players: How Political Institutions Work*. Princeton University Press.
+
+### International Law
+
+Koh, H.H. (1997). Why do nations obey international law? *Yale Law Journal*, 106(8), 2599-2659.
+
+Goldsmith, J.L., & Posner, E.A. (2005). *The Limits of International Law*. Oxford University Press.
+
+Slaughter, A.M. (2004). *A New World Order*. Princeton University Press.
+
+Simmons, B.A. (2009). *Mobilizing for Human Rights: International Law in Domestic Politics*. Cambridge University Press.
+
+### Argentina: Political Economy and History
+
+Torre, J.C., & Pastoriza, E. (2002). La democratización del bienestar. In J.C. Torre (Ed.), *Nueva Historia Argentina* (Vol. 8). Editorial Sudamericana.
+
+Gerchunoff, P., & Llach, L. (2018). *El ciclo de la ilusión y el desencanto: Un siglo de políticas económicas argentinas* (2nd ed.). Ariel.
+
+Novaro, M., & Palermo, V. (2003). *La dictadura militar 1976-1983: Del golpe de Estado a la restauración democrática*. Paidós.
+
+Jones, M.P. (2001). Political institutions and public policy in Argentina: An overview of the formation and execution of the national budget. In S. Haggard & M.D. McCubbins (Eds.), *Presidents, Parliaments, and Policy* (pp. 150-183). Cambridge University Press.
+
+Molinelli, N.G., Palanza, M.V., & Sin, G. (1999). *Congreso, Presidencia y Justicia en Argentina*. Temas Grupo Editorial.
+
+Mustapic, A.M. (2013). El rol del Poder Legislativo en sistemas presidenciales: El caso argentino. In *Fortalecimiento del rol del Congreso en el presupuesto nacional* (pp. 23-48). CIPPEC.
+
+Poliarquía Consultores. (2019). *Encuesta Nacional de Opinión Pública*. Buenos Aires, Argentina.
+
+Poliarquía Consultores. (2023). *Polarización y Confianza Institucional en Argentina*. Buenos Aires, Argentina.
+
+### International Relations and Comparative Politics
+
+Alemán, E., & Calvo, E. (2013). Unified government, bill approval, and the legislative weight of the president. *Comparative Political Studies*, 46(4), 511-534.
+
+Buquet, D., & Chasquetti, D. (2004). La democracia en Uruguay: Una partidocracia de consenso. *Política*, 42, 221-247.
+
+Figueiredo, A., & Limongi, F. (2000). Presidential power, legislative organization, and party behavior in Brazil. *Comparative Politics*, 32(2), 151-170.
+
+Geddes, B. (1994). *Politician's Dilemma: Building State Capacity in Latin America*. University of California Press.
+
+O'Donnell, G. (1994). Delegative democracy. *Journal of Democracy*, 5(1), 55-69.
+
+### Public Opinion and Polarization
+
+Pew Research Center. (2022). *Political Polarization in the American Public*. Washington, DC.
+
+Iyengar, S., & Westwood, S.J. (2015). Fear and loathing across party lines: New evidence on group polarization. *American Journal of Political Science*, 59(3), 690-707.
+
+### Methodology
+
+Baron, R.M., & Kenny, D.A. (1986). The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. *Journal of Personality and Social Psychology*, 51(6), 1173-1182.
+
+Rasella, D., Aquino, R., Santos, C.A., Paes-Sousa, R., & Barreto, M.L. (2013). Effect of a conditional cash transfer programme on childhood mortality: A nationwide analysis of Brazilian municipalities. *The Lancet*, 382(9886), 57-64.
+
+### Previous Work by Author
+
+Lerer, I.A. (2025). The Extended Phenotype of Populism: A Memetic Analysis of Policy Persistence in Latin America. *SSRN Working Paper No. 5463814*. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5463814
+
+Lerer, I.A. (2024a). Constitutional Lock-in and the Phenotypic Expression of Legal Regimes: Argentina's Labor Market as Irreversible Institutional Morphology. *SSRN Working Paper No. 5624710*. https://papers.ssrn.com/abstract=5624710
+
+Lerer, I.A. (2024b). Law as Extended Phenotype: Toward an Evolutionary Theory of Legal Systems. *SSRN Working Paper No. 5593470*. https://papers.ssrn.com/abstract=5593470
+
+Lerer, I.A. (2024c). The Peralta Metamorphosis: Quantifying the Evolution of Legal Parasitism Through Computational Analysis of Argentine Constitutional Degradation (1922-2025). *SSRN Working Paper No. 5467928*. https://papers.ssrn.com/abstract=5467928
+
+Lerer, I.A. (2024d). Argentina's Fiscal Lock-in: Tax Reform as Extended Phenotype. *SSRN Working Paper No. 5635152*. https://papers.ssrn.com/abstract=5635152
+
+Lerer, I.A. (2024e). International Law as Extended Phenotype: Globalist and Sovereigntist Memeplexes Competing Through Legal Artifacts (2000-2025). *SSRN Working Paper No. 5612010*. https://papers.ssrn.com/abstract=5612010
+
+Lerer, I.A. (2024f). JurisRank: Measuring Legal Phenotypic Fitness Through Citation Networks—A Darwinian Approach to Legal Evolution with Dual Methodological Validation. *SSRN Working Paper No. 5405459*. https://papers.ssrn.com/abstract=5405459
+
+### Additional Sources
+
+Olson, M. (1965). *The Logic of Collective Action: Public Goods and the Theory of Groups*. Harvard University Press.
+
+Stigler, G.J. (1971). The theory of economic regulation. *Bell Journal of Economics and Management Science*, 2(1), 3-21.
+
+Simon, H.A. (1955). A behavioral model of rational choice. *Quarterly Journal of Economics*, 69(1), 99-118.
+
+Habermas, J. (1984). *The Theory of Communicative Action, Volume 1: Reason and the Rationalization of Society*. Beacon Press.
+
+Rawls, J. (1971). *A Theory of Justice*. Belknap Press.
+
+Sobel, M.E. (1982). Asymptotic confidence intervals for indirect effects in structural equation models. *Sociological Methodology*, 13, 290-312.
 
 ---
 
