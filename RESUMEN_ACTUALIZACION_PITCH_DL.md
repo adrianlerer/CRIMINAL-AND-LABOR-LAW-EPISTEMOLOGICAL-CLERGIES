@@ -219,7 +219,7 @@ Si DL acepta, aplicar herramientas a **1 de los 3 pilotos**:
 ## 📞 Contacto y Material
 
 **Repositorio**: https://github.com/adrianlerer/legal-evolution-unified  
-**Pull Request**: https://github.com/adrianlerer/legal-evolution-unified/pull/15
+**Pull Request**: https://github.com/adrianlerer/legal-evolution-unified/pull/16
 
 **Archivos finales**:
 - `PITCH_DIRECTORIO_LEGISLATIVO.md` (32KB - documento completo)
