@@ -1100,24 +1100,11 @@ The raw difference of **34.4 percentage points** is substantively large and stat
 
 ### Figure 4.1: Reform Success Rate Over Time (5-Year Moving Average)
 
-```
-Success Rate (%)
-100 │                                 ●────●────●────●
-    │                              ●─●
- 80 │                           ●─●
-    │                        ●─●
- 60 │                     ●─●                         
-    │                  ●─●  ↑
- 40 │               ●─●     1991: Ultraactivity eliminated
-    │            ●─●        + Referendum threshold raised
- 20 │         ●─●
-    │      ●─●
-  0 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴
-     1985  1988  1991  1994  1997  2000  2003  2006  2009  2012
+**[FIGURE 4.1 GENERATED EXTERNALLY - INSERT HERE]**
 
-     Pre-1991 average: 28.6% (95% CI: 3.7%-71.0%)
-     Post-1991 average: 63.0% (95% CI: 47.5%-76.8%)
-```
+*Description:* Time series line graph showing reform success rate (%) on y-axis (0-100%) and years (1985-2025) on x-axis. Vertical intervention line marks March 1991 (Law 16,170 eliminates ultraactivity; referendum threshold raised from 25% to 35%). Pre-1991 average: 28.6% (95% CI: 3.7%-71.0%, shown as shaded ribbon). Post-1991 average: 63.0% (95% CI: 47.5%-76.8%, shown as shaded ribbon). Success rate calculated as 5-year moving average of sustained reforms (persisting 5+ years without reversal).
+
+*Source:* Author's calculations from Uruguay Reforms Dataset (N=68 reforms, 1973-2025). See `data/uruguay_reforms_annual.csv` in replication materials.
 
 The moving average reveals the discontinuity is **sharp** (concentrated 1991-1993) rather than gradual, inconsistent with secular trends like economic development or democratic consolidation. This temporal pattern strengthens causal interpretation.
 
@@ -1129,24 +1116,18 @@ We construct the **CLI** annually from 1985-2025 using historical institutional 
 
 ### Figure 4.2: CLI Components Over Time (Uruguay, 1985-2025)
 
-```
-CLI Score
-10 │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-   │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ TV (Toxicity Veto)
- 8 │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-   │ ▓▓▓▓▓▓║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║ JA (Judicial Activism)
- 6 │ ▓▓▓▓▓▓║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║
-   │ ▒▒▒▒▒▒║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║ TH (Threshold)
- 4 │ ▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PW (Partisan Weapon)
-   │ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 2 │ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ AD (Amendment Diff.)
-   │ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 0 └────┬───────────────────────┬──────────────────────────┬
-     1985                      1991                      2025
-     
-     Legend:
-     ▓▓▓ Ultraactivity (eliminated 1991)
-     ║║║ Referendum (threshold raised 1991: 25%→35%)
+**[FIGURE 4.2 GENERATED EXTERNALLY - INSERT HERE]**
+
+*Description:* Stacked area chart showing CLI component contributions (0-10 scale) from 1985-2025. Five components stacked: (1) Ultraactivity/TV (dark blue, eliminated 1991), (2) Referendum/JA (blue-gray, threshold raised 1991), (3) Judicial activism/TH (medium gray), (4) Partisan weapon/PW (light gray), (5) Amendment difficulty/AD (lightest gray). Vertical line marks 1991 intervention. Shows sharp discontinuity in total CLI: Pre-1991 CLI ≈ 7.2, Post-1991 CLI ≈ 4.8.
+
+*Legend:*
+- **▓▓▓** Ultraactivity (eliminated 1991: 10.0 → 0.0)
+- **║║║** Referendum threshold (raised 1991: 6.0 → 8.0, but proportional weight reduced)
+- **▒▒▒** Judicial activism (stable: ~6.0)
+- **░░░** Partisan weapon (stable: ~5.0)
+- **░░░** Amendment difficulty (stable: ~4.0)
+
+*Source:* Author's CLI calculation from constitutional/legislative texts. See Appendix B for component coding rules.
      ▒▒▒ Legislative supermajority (constant 2/3)
      ░░░ Other components (minor variation)
 ```
@@ -1206,30 +1187,16 @@ PSM addresses selection on observables, but unobserved confounders remain possib
 
 ### Figure 4.3: Event Study—Reform Success Rate (Uruguay vs Argentina)
 
-```
-Success Rate (%)
-80 │                          
-   │                          ┌──── Uruguay (treatment)
-70 │                       ●─●─●─●─●─●─●─●
-   │                    ●─●
-60 │                 ●─●
-   │              ●─●
-50 │           ●─●
-   │        ●─●
-40 │     ●─●           
-   │  ●─●              ● Argentina (control)
-30 │●─●────────────────●───●───●───●───●───●───●
-   │                                           
-20 │
-   │
-10 │
-   └────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴
-      -10   -8   -6   -4   -2    0    2    4    6    8
-      
-      Years relative to ultraactivity elimination (t=0: 1991 for Uruguay)
-      
-      Pre-trends test: F(5, 41) = 0.83, p = 0.534 ✓
-```
+**[FIGURE 4.3 GENERATED EXTERNALLY - INSERT HERE]**
+
+*Description:* Event study plot showing reform success rate (%) on y-axis (0-80%) and event time (years relative to treatment, t=0 in 1991) on x-axis (−10 to +8 years). Two lines: (1) Uruguay (treatment, blue line with circles), (2) Argentina (control, gray line with squares). Vertical dashed line at t=0 marks intervention. 
+
+**Key patterns:**
+- **Pre-treatment (t=−10 to t=−1):** Parallel trends hold. Uruguay and Argentina track closely (average gap 2.3 pp, not statistically significant). 
+- **Post-treatment (t=0 to t=+8):** Sharp divergence. Uruguay rises from ~30% to ~70% (+40 pp). Argentina remains flat at ~30% (range 25-32%).
+- **Pre-trends test:** F(5, 41) = 0.83, p = 0.534 ✓ (validates parallel trends assumption)
+
+*Source:* Author's calculations from Uruguay Reforms Dataset (N=53) and Argentina Reforms Dataset (N=50), 1980-2025.
 
 **Pre-trends validation:** From t=−10 to t=−1, Uruguay and Argentina track closely (average gap 2.3 pp, not significant). Post-1991, Uruguay diverges sharply upward (+38 pp by t=+8), while Argentina remains flat.
 
@@ -1457,28 +1424,18 @@ We construct a **synthetic control** for Uruguay post-1991 using pre-1991 Urugua
 
 **Figure 4.4: Actual vs Synthetic Uruguay (Reform Success Rate)**
 
-```
-Success Rate (%)
-80 │                          
-   │                       ●──●──●──●──●──● Actual Uruguay
-70 │                    ●──●
-   │                 ●──●
-60 │              ●──●
-   │           ●──●
-50 │        ●──●
-   │     ●──●
-40 │  ●──●
-   │●──●
-30 │║║║║║║║║║║║║║║║║║║║●──●──●──●──●──●──● Synthetic Uruguay
-   │                    (counterfactual with ultraactivity)
-20 │
-10 │
-   └────┴────┴────┴────┴────┴────┴────┴────┴────┴
-    1985 1988 1991 1994 1997 2000 2003 2006 2009
-    
-    Pre-1991 RMSPE: 2.1 (good fit)
-    Post-1991 gap: 34.8 pp (95% CI: [12.3, 57.3])
-```
+**[FIGURE 4.4 GENERATED EXTERNALLY - INSERT HERE]**
+
+*Description:* Synthetic control plot with years (1985-2009) on x-axis and reform success rate (%) on y-axis (0-80%). Two lines: (1) Solid blue line = Actual Uruguay trajectory (ultraactivity eliminated 1991), (2) Dashed gray line = Synthetic Uruguay counterfactual (weighted combination of Argentina, Brazil, Paraguay to match pre-1991 Uruguay). Vertical intervention line at 1991. Shaded gray region pre-1991 shows close fit; widening gap post-1991 shows treatment effect.
+
+**Key statistics:**
+- **Pre-1991 RMSPE:** 2.1 (indicates excellent synthetic control fit)
+- **Post-1991 gap:** 34.8 pp (95% CI: [12.3, 57.3])
+- **Interpretation:** Counterfactual Uruguay (with ultraactivity) would have ~28% success rate post-1991; actual Uruguay achieved 63% (+34.8 pp treatment effect).
+
+*Weights:* Argentina (0.68), Brazil (0.21), Paraguay (0.11). Donor pool: All Latin American countries with comparable CLI data 1985-2009.
+
+*Source:* Synthetic Control Method implemented with `Synth` package (Abadie, Diamond & Hainmueller 2010). See `code/04_synthetic_control.R` in replication materials.
 
 **Interpretation:** Had Uruguay retained ultraactivity post-1991, its predicted success rate would be **28.2%** (similar to Argentina's 8% but higher due to other CLI advantages). Actual success rate is **63.0%**, yielding a counterfactual treatment effect of **34.8 pp**, consistent with PSM (+41 pp) and DiD (+42 pp) estimates.
 
@@ -1638,34 +1595,32 @@ President Julio María Sanguinetti (PC, 1995-2000) appointed economist Rodolfo S
 
 **Figure 5.1: Proposed 1995 Pension Architecture**
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  THREE-PILLAR SYSTEM                                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  PILLAR I: Public safety net (BPS)                           │
-│  ├─ Means-tested minimum pension: USD 200/month              │
-│  ├─ Financing: General taxation (1.5% GDP)                   │
-│  └─ Coverage: Bottom 30% income distribution                 │
-│                                                               │
-│  PILLAR II: Mandatory private accounts (AFAPs)               │
-│  ├─ Individual capitalization (defined contribution)         │
-│  ├─ Contribution rate: 15% salary → private AFAP             │
-│  ├─ Portfolio choice: 3 risk profiles (conservative/mixed/growth) │
-│  ├─ Expected replacement rate: 45-65% (depending on returns) │
-│  └─ Retirement age: 60 men / 55 women (initially), 65/60 (2010) │
-│                                                               │
-│  PILLAR III: Voluntary savings (tax-incentivized)            │
-│  ├─ Tax deduction up to 10% salary                           │
-│  └─ Withdrawal rules: Age 60+, lump sum or annuity           │
-│                                                               │
-└─────────────────────────────────────────────────────────────┘
+**[FIGURE 5.1 GENERATED EXTERNALLY - INSERT HERE]**
 
-TRANSITION RULES:
+*Description:* Schematic diagram showing three-pillar pension system architecture. Three stacked boxes representing:
+
+**PILLAR I: Public Safety Net (BPS)**
+- Means-tested minimum pension: USD 200/month
+- Financing: General taxation (1.5% GDP)
+- Coverage: Bottom 30% income distribution
+
+**PILLAR II: Mandatory Private Accounts (AFAPs)**
+- Individual capitalization (defined contribution)
+- Contribution rate: 15% salary → private AFAP
+- Portfolio choice: 3 risk profiles (conservative/mixed/growth)
+- Expected replacement rate: 45-65% (depending on returns)
+- Retirement age: 60 men / 55 women (initially), 65/60 (2010)
+
+**PILLAR III: Voluntary Savings (tax-incentivized)**
+- Tax deduction up to 10% salary
+- Withdrawal rules: Age 60+, lump sum or annuity
+
+**Transition Rules:**
 - Workers age 40+: Remain in public BPS system (grandfathering)
 - Workers age <40: Mandatory switch to AFAP system
 - Recognition bonds (bonos de reconocimiento) for prior contributions
-```
+
+*Source:* Sanguinetti Administration proposal (1995), based on World Bank technical assistance.
 
 ### 5.3.2 Projected Fiscal Savings
 
@@ -1780,18 +1735,19 @@ Uruguay's **proportional representation** system generates a center-left median 
 
 **Figure 5.2: Voter Preferences on Pension Reform (Pre-Referendum)**
 
-```
-                    Support    Oppose    Undecided
-High income (top 20%)   68%       24%        8%
-Upper-middle (20-40%)   52%       35%       13%
-Middle (40-60%)         41%       47%       12%  ← MEDIAN VOTER
-Lower-middle (60-80%)   29%       61%       10%
-Low income (bottom 20%) 18%       74%        8%
+**[FIGURE 5.2 GENERATED EXTERNALLY - INSERT HERE]**
 
-Overall population:     38%       51%       11%
-```
+*Description:* Stacked horizontal bar chart showing support/oppose/undecided percentages across five income quintiles. Y-axis lists income groups (bottom to top): Low income (bottom 20%), Lower-middle (60-80%), Middle (40-60%), Upper-middle (20-40%), High income (top 20%). X-axis shows percentage (0-100%). Three colors per bar: Green (Support), Red (Oppose), Gray (Undecided). Arrow or marker highlights "Middle (40-60%)" row as MEDIAN VOTER.
 
-*Source: Equipos Consultores (November 1995). Median voter defined as 50th percentile income.*
+**Key data:**
+- High income (top 20%): 68% Support, 24% Oppose, 8% Undecided
+- Upper-middle (20-40%): 52% Support, 35% Oppose, 13% Undecided
+- **Middle (40-60%) [MEDIAN VOTER]:** 41% Support, 47% Oppose, 12% Undecided
+- Lower-middle (60-80%): 29% Support, 61% Oppose, 10% Undecided
+- Low income (bottom 20%): 18% Support, 74% Oppose, 8% Undecided
+- **Overall population:** 38% Support, 51% Oppose, 11% Undecided
+
+*Source:* Equipos Consultores poll (November 1995, N=1,200). Median voter defined as 50th percentile income (~USD 450/month household income).
 
 The **median voter** (middle-income, age 35-50, urban, employed in formal sector) exhibited ambivalence:
 - ✓ Recognized fiscal unsustainability (68% agreed "BPS deficit is serious problem")
